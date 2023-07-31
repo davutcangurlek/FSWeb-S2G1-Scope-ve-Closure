@@ -29,11 +29,15 @@ console.log('örnek görev:', ilkiniDon(['as','sa'],function(metin){return metin
   
   Aşağıdaki skor1 ve skor2 kodlarını inceleyiniz ve aşağıdaki soruları altına not alarak cevaplayın
   
-  1. skor1 ve skor2 arasındaki fark nedir?
+  1. skor1 ve skor2 arasındaki fark nedir? 
+
+  // skor 1 closure skor 2 ise lokal scope'dur
   
   2. Hangisi bir closure kullanmaktadır? Nasıl tarif edebilirsin? (yarınki derste öğreneceksin :) )
+  // skor 1 dir Parent scope'taki değişkenleri hatırlayabilen ve bunlara erişebilen fonksiyon anlaşılmalıdır.
   
   3. Hangi durumda skor1 tercih edilebilir? Hangi durumda skor2 daha mantıklıdır?
+  // skor 2 hatırlayabildiği için geriye dönük sistemin aklında tutmasını istiyorsak closure kullanılmalıdır diğer durumlarda skor 1.
 */
 
 // skor1 kodları
