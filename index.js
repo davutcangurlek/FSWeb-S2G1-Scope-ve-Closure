@@ -68,8 +68,14 @@ Aşağıdaki takimSkoru() fonksiyonununda aşağıdakileri yapınız:
 Not: Bu fonskiyon, aşağıdaki diğer görevler için de bir callback fonksiyonu olarak da kullanılacak
 */
 
-function takimSkoru(/*Kodunuzu buraya yazınız*/){
-    /*Kodunuzu buraya yazınız*/
+function takimSkoru(skor){
+    let sayi;
+    sayi = Math.random();
+    sayi = Math.random(sayi);
+
+    if (sayi >= 10 && sayi <= 25) {
+      return sayi;
+    }
 }
 
 
